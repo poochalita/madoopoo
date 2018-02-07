@@ -28,6 +28,13 @@ if (!is_null($events['events'])) {
 					'text' => 'จ้าาาาาา'
 				];
 			}
+			if($text == 'ทำไมอยู่หรอจ่ะ'){
+				// Build message to reply back
+				$messages = [
+					'type' => 'text',
+					'text' => 'กินข้าวอยู่'
+				];
+			}
 			else if($text == 'test'){
 				// Build message to reply back
 				$messages = [
