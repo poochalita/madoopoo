@@ -32,7 +32,7 @@ if (!is_null($events['events'])) {
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'กินข้าวอยู่'
+					'text' => 'หายใจอยู่'
 				];
 			}
 			if($text == 'กินข้าวยัง'){
