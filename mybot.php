@@ -21,6 +21,13 @@ if (!is_null($events['events'])) {
 					'text' => 'สวัสดีครัชช'
 				];
 			}
+			if($text == 'poo'){
+				// Build message to reply back
+				$messages = [
+					'type' => 'text',
+					'text' => 'จ้าาาาาา'
+				];
+			}
 			else if($text == 'test'){
 				// Build message to reply back
 				$messages = [
