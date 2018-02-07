@@ -35,6 +35,13 @@ if (!is_null($events['events'])) {
 					'text' => 'กินข้าวอยู่'
 				];
 			}
+			if($text == 'กินข้าวยัง'){
+				// Build message to reply back
+				$messages = [
+					'type' => 'text',
+					'text' => 'กินแล้วเรียบร้อย คิคิ'
+				];
+			}
 			else if($text == 'test'){
 				// Build message to reply back
 				$messages = [
